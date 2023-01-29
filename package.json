@@ -1,0 +1,15 @@
+{
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start": "tauri dev",
+    "app:build": "npm --workspace @noise/app run build",
+    "app:start": "npm --workspace @noise/app run start"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.3"
+  }
+}
