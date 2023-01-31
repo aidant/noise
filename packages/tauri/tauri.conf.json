@@ -4,7 +4,7 @@
     "beforeBuildCommand": "npm run app:build",
     "beforeDevCommand": "npm run app:start",
     "devPath": "http://localhost:5173/",
-    "distDir": "../../app/build"
+    "distDir": "../app/build"
   },
   "package": {
     "productName": "noise",
@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "pro.aidan.app.noise",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
