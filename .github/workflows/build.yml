@@ -40,7 +40,7 @@ jobs:
 
       - name: Build
         id: build
-        uses: tauri-apps/tauri-action@v0
+        uses: tauri-apps/tauri-action@dev
 
       - uses: actions/upload-artifact@v3
         with:
