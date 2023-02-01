@@ -14,12 +14,15 @@
   },
   "dependencies": {
     "@tauri-apps/api": "^1.2.0",
+    "apca-w3": "^0.1.9",
     "bluos": "^1.0.0-alpha.1",
+    "quantize": "^1.0.2",
     "rxjs": "^7.4.0"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.5",
     "@sveltejs/kit": "next",
+    "@types/apca-w3": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "@typescript-eslint/parser": "^5.49.0",
     "autoprefixer": "^10.4.13",
