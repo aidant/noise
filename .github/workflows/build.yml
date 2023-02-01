@@ -46,4 +46,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: ${{ github.event.repository.name }}-${{ matrix.platform }}
-          path: ${{ fromJson(steps.build.outputs.artifactPaths) }}
+          path: ${{ join(fromJson(steps.build.outputs.artifactPaths), '\n') }}
